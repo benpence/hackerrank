@@ -4,16 +4,15 @@ module Main where
 import Control.Monad (forM)
 import Control.Monad (forM_)
 import Control.Monad.State (State)
+import Data.Array (Array)
 import Data.Function (on)
 import Data.Set (Set)
-import Data.Array (Array)
 import System.IO (IO)
 
 import qualified Control.Monad       as Monad
 import qualified Control.Monad.State as State
 import qualified Data.Array          as Array
 import qualified Data.List           as List
-import qualified Data.Maybe          as Maybe
 import qualified Data.Set            as Set
 
 newtype Matrix
